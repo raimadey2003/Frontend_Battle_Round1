@@ -85,10 +85,10 @@ No server or additional setup is required.
 
 ---
 
-## 🧑‍💻 Author
+## 👩🏻‍💻 Author
 
 **Raima Dey**
-Frontend Enthusiast | Vibe Coder | 💻🌈
+|Web Developer| 💻🌈
 📬 [Email](mailto:raimadey9836@gmail.com) • 🌐 [LinkedIn](https://linkedin.com/in/raima-dey-13426a351)
 
 ---
