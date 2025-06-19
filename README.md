@@ -10,8 +10,7 @@ Welcome to **Frontend Battle** — a vibrant, creative frontend web project desi
 
 ## 🚀 Live Demo
 
-> [🔗 Click here to view the deployed project](frontendbattle-round1.netlify.app)  
-> *(Update with your GitHub Pages / Netlify / Vercel link)*
+> frontendbattle-round1.netlify.app  
 
 ---
 
