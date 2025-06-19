@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Frontend Battle</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css">
+</head>
+<body>
+
+<!-- Loader -->
+<div id="preloader">
+  <video id="loaderVideo" autoplay muted loop playsinline>
+    <source src="assets/videos/loader.mp4" type="video/mp4" />
+    Your browser does not support the video tag.
+  </video>
+</div>
+
+  <!-- Navbar -->
+  <nav class="glass">
+    <div class="logo">Frontend Battle</div>
+    <ul>
+      <li><a href="#hero">Home</a></li>
+      <li><a href="#features">Features</a></li>
+      <li><a href="#services">Services</a></li>
+      <li><a href="#testimonials">Testimonials</a></li>
+      <li><a href="#work">Work</a></li>
+      <li><a href="#stats">Stats</a></li>
+      <li><a href="#contact">Contact</a></li>
+      <li><button id="modeToggle">🌓</button></li>
+    </ul>
+  </nav>
+
+  <!-- Hero Section -->
+  <header id="hero">
+    <video autoplay muted loop playsinline src="assets/videos/homepage.mp4"></video>
+    <div class="overlay">
+      <h1 data-aos="fade-down">Welcome to the Frontend Battle</h1>
+      <p data-aos="fade-up">Crafted with precision and innovation.</p>
+      <a href="#features" class="btn-glow" data-aos="zoom-in">Explore Now</a>
+    </div>
+  </header>
+
+  <!-- Features Section -->
+  <section id="features">
+    <h2 data-aos="fade-up">Features</h2>
+    <video autoplay muted loop playsinline src="assets/videos/features-services.mp4" data-aos="fade-right"></video>
+    <img src="assets/images/cards.png" alt="Feature Cards" data-aos="fade-left">
+  </section>
+
+  <!-- Services Section -->
+  <section id="services">
+    <h2 data-aos="zoom-in">Our Services</h2>
+    <video autoplay muted loop playsinline src="assets/videos/caraousel switch.mp4" data-aos="fade-up"></video>
+  </section>
+
+  <!-- Testimonials Section -->
+  <section id="testimonials">
+    <h2 data-aos="fade-up">Testimonials</h2>
+    <div class="video-grid">
+      <video autoplay muted loop playsinline src="assets/videos/testimonials.mp4" data-aos="fade-right"></video>
+      <video autoplay muted loop playsinline src="assets/videos/customer-section.mp4" data-aos="fade-left"></video>
+    </div>
+  </section>
+
+  <!-- Work Showcase Section -->
+  <section id="work">
+    <h2 data-aos="fade-up">Showcase</h2>
+    <video autoplay muted loop playsinline src="assets/videos/showcase work.mp4" data-aos="zoom-in"></video>
+  </section>
+
+  <!-- Parallax Section -->
+  <section id="parallax">
+    <h2 data-aos="fade-up">Parallax Magic</h2>
+    <video autoplay muted loop playsinline src="assets/videos/parallax animation.mp4" data-aos="fade-in"></video>
+  </section>
+
+  <!-- Ripple Effect Section -->
+  <section id="effects">
+    <h2 data-aos="fade-up">Ripple Effects</h2>
+    <video autoplay muted loop playsinline src="assets/videos/ripple effect.mp4" data-aos="fade-up"></video>
+  </section>
+
+  <!-- Scroll Animation Section -->
+  <section id="scroll">
+    <h2 data-aos="fade-up">Scroll Animations</h2>
+    <video autoplay muted loop playsinline src="assets/videos/scroll and pop up.mp4" data-aos="zoom-in"></video>
+  </section>
+
+  <!-- Divider / Decorative Section -->
+  <section id="decorative">
+    <h2 data-aos="fade-up">Creativity in Motion</h2>
+    <video autoplay muted loop playsinline src="assets/videos/striking - any simple object can be used.mp4" data-aos="flip-up"></video>
+  </section>
+
+  <!-- Stats Section -->
+  <section id="stats">
+    <h2 data-aos="fade-up">Our Performance</h2>
+    <div class="img-grid">
+      <img src="assets/images/stats.png" alt="Stats" data-aos="fade-right">
+      <img src="assets/images/graph.png" alt="Graph" data-aos="fade-left">
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact">
+    <h2 data-aos="fade-up">Contact Us</h2>
+    <form id="contactForm" data-aos="fade-in">
+      <div class="form-group">
+        <input type="text" id="name" placeholder=" " required />
+        <label for="name">Your Name</label>
+      </div>
+      <div class="form-group">
+        <input type="email" id="email" placeholder=" " required />
+        <label for="email">Your Email</label>
+      </div>
+      <div class="form-group">
+        <textarea id="message" placeholder=" " required></textarea>
+        <label for="message">Message</label>
+      </div>
+      <button type="submit" class="btn-glow">Send</button>
+      <div id="confirmation">✅ Thank you for your message!</div>
+    </form>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>Frontend Battle ✦ Developed with Passion by Raima</p>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+  <script src="js/script.js"></script>
+</body>
+</html>
